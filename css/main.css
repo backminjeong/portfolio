@@ -1,0 +1,427 @@
+#header {
+    width: 100%;
+}
+
+.headerin {
+    width: 1200px;
+    height: 81px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.headerin .gnb {
+    position: absolute;
+    margin-left: 215px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.headerin .gnb li {
+    float: left;
+    margin-right: 205px;
+}
+
+.headerin .gnb li:last-child {
+    margin-right: 0;
+}
+
+/* header 끝 */
+
+#mainVisual {
+    width: 100%;
+    height: 547px;
+    position: relative;
+
+}
+
+.main {
+    width: 100%;
+    height: 547px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.mainbg {
+    height: 547px;
+    background: url(../img/background.png) no-repeat 0 0 / cover;
+    font-size: 0;
+
+}
+
+.well {
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    top: 207px;
+    margin-left: 450px;
+
+}
+
+.well2 {
+    font-size: 36px;
+    font-weight: 400;
+    position: absolute;
+    top: 270px;
+    margin-left: 500px;
+}
+
+.bear {
+    float: right;
+    margin-top: 43px;
+    margin-right: 500px;
+}
+
+/* mainVisual 끝 */
+
+#container {
+    width: 100%;
+}
+
+.contin {
+    width: 100%;
+    height: 1242px;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.aboutme {
+    width: 1200px;
+    height: 667px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.me {
+    width: 1200px;
+    height: 670px;
+    position: absolute;
+}
+
+.metit span {
+    color: #fe9002;
+    text-align: center;
+}
+
+.metxt .notice {
+    margin-top: 400px;
+}
+
+.metxt span {
+    color: #fe9002;
+}
+
+/* aboutme */
+
+.profile {
+    width: 100%;
+    height: 575px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profilein {
+    width: 100%;
+    height: 575px;
+    margin: 0 auto;
+    position: absolute;
+
+}
+
+.profilebg {
+    width: 100%;
+    height: 575px;
+    background: url(../img/background.png) no-repeat 0 0 / cover;
+}
+
+.profilebg h3 {
+    margin-left: 350px;
+}
+
+.cont1 {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cont1 .bmg {
+    width: 100%;
+    height: 100%;
+}
+
+.bmj span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.skill span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* profile */
+
+
+
+section {
+    height: 100vh;
+}
+
+#video {
+    width: 100%;
+    position: relative;
+}
+
+#video .list {
+    height: 100%;
+    display: flex;
+}
+
+#video .list .thumb {
+    width: 25%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#video .list .thumb:nth-child(1) {
+    background-image: url(../img/cloud1.png);
+}
+
+#video .list .thumb:nth-child(2) {
+    background-image: url(../img/cloud2.png);
+}
+
+#video .list .thumb:nth-child(3) {
+    background-image: url(../img/cloud3.png);
+}
+
+#video .list .thumb:nth-child(4) {
+    background-image: url(../img/cloud4.png);
+}
+
+#video .list .thumb a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#video .list .thumb .over {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+#video .list .thumb:hover .over {
+    opacity: 1;
+}
+
+#video .list .thumb .over .txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#video .list .thumb .over .txt h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* list 끝 */
+
+#video .cont>div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#video .cont .wide_play:nth-child(1) {
+    background: url(../img/click_cloud1.png) no-repeat center center / cover;
+}
+
+#video .cont .wide_play:nth-child(2) {
+    background: url(../img/click_cloud2.png) no-repeat center center / cover;
+}
+
+#video .cont .wide_play:nth-child(3) {
+    background: url(../img/click_cloud3.png) no-repeat center center / cover;
+}
+
+#video .cont .wide_play:nth-child(4) {
+    background: url(../img/click_cloud4.png) no-repeat center center / cover;
+}
+
+#video .cont .wide_play .playin {
+    width: 1360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#video .cont .wide_play .playin .close {
+    position: absolute;
+    top: -70px;
+    right: 0;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+#video .cont .wide_play .playin .play {
+    width: 1015px;
+    height: 571px;
+}
+
+#video .cont .wide_play .playin .play iframe {
+    width: 100%;
+    height: 100%;
+}
+
+#video .cont .wide_play .playin .info {
+    width: 325px;
+}
+
+#video .cont .wide_play .playin .info h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+#video .cont .wide_play .playin .info p {
+    text-align: justify;
+}
+
+/* cont 끝 >> video 끝 */
+
+.portfolio {
+    width: 100%;
+}
+
+.portfolioin {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.bhc>div {
+    width: 100%;
+    height: 483px;
+    margin: 0 auto;
+    background: url(../img/portfolio1.png) no-repeat center center;
+    font-size: 0;
+    text-align: center;
+}
+
+.bhc li {
+    float: left;
+    margin-right: 130px;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.bhc li:last-child {
+    padding-right: 570px;
+}
+
+.bhc li p {
+    margin-top: 25px;
+}
+
+.bhc .renewal {
+    font-size: 18px;
+    text-align: center;
+}
+
+.bhc p {
+    text-align: center;
+}
+
+.portfolio .bhc a {
+    display: block;
+    width: 295px;
+    height: 50px;
+    line-height: 36px;
+    border-radius: 50px;
+    border: 2px solid #000;
+    color: #000;
+    font-weight: bold;
+    line-height: 36px;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+.bhc a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.cloneCoding {
+    width: 100%;
+    height: 483px;
+    display: none;
+}
+
+.cloneCoding>div {
+    width: 100%;
+    margin: 0 auto;
+    background: url(../img/portfolio2.png) no-repeat center center;
+    font-size: 0;
+}
+
+/* portfolio */
+
+#footer {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../img/background.png) no-repeat 0 0 / cover;
+}
+
+.footerin {
+    width: 100%;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.footerbg {
+    width: 100%;
+    height: 300px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 22px;
+}
+
+.footerbg .thanks {
+    font-size: 30px;
+    letter-spacing: 0.6em;
+}
+
+.footerbg p {
+    padding-top: 25px;
+}
